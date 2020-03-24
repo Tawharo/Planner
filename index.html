@@ -1,11 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
+        crossorigin="anonymous">
+
+    <title>Work Day Scheduler</title>
+
 </head>
+<script src="moment.js"></script>
+
 <body>
-    
+
+    <header class="row justify-content-center" id="monthDisplay">
+        <h1>Work Day Scheduler</h1>
+    </header>
+
+    <div class="card col-lg-10 col-md-12">
+        <h3 id="hodie">Calendar App</h3>
+
+        <table class="table table-sm" id="calendar">
+            <tbody>
+                <tr data-time="6">
+                    <th scope="row"></th>
+                    <td>
+                        <label><input type="text" id="#six" class="label" value="6:00AM"></label>
+                    </td>
+                    <td><button class="button">Save</button></td>
+                </tr>
+                <tr data-time="7">
+                    <th scope="row"></th>
+                    <td>
+                        <label><input type="text" id="#seven" class="label" value="7:00AM"></label>
+                    </td>
+                    <td><button class="button">Save</button></td>
+                </tr>
+                <tr data-time="8">
+                    <th scope="row"></th>
+                    <td>
+                        <label><input type="text" id="#eight" class="label" value="8:00AM"></label>
+                    </td>
+                    <td><button class="button">Save</button></td>
+                </tr>
+                <tr data-time="9">
+                    <th scope="row"></th>
+                    <td>
+                        <label><input type="text" id="#nine" class="label" value="9:00AM"></label>
+                    </td>
+                    <td><button class="button">Save</button></td>
+                </tr>
+                <tr data-time="10">
+                    <th scope="row"></th>
+                    <td>
+                        <label><input type="text" id="#ten" class="label" value="10:00AM"></label>
+                    </td>
+                    <td><button class="button">Save</button></td>
+                </tr>
+                <tr data-time="11">
+                    <th scope="row"></th>
+                    <td>
+                        <label><input type="text" id="#eleven" class="label" value="11:00AM"></label>
+                    </td>
+                    <td><button class="button">Save</button></td>
+                </tr>
+                <tr data-time="12">
+                    <th scope="row"></th>
+                    <td>
+                        <label><input type="text" id="#twelve" class="label" value="12:00PM"></label>
+                    </td>
+                    <td><button class="button">Save</button></td>
+                </tr>
+                <tr data-time="13">
+                    <th scope="row"></th>
+                    <td>
+                        <label><input type="text" id="#thirteen" class="label" value="1:00PM"></label>
+                    </td>
+                    <td><button class="button">Save</button></td>
+                </tr>
+                <tr data-time="14">
+                    <th scope="row"></th>
+                    <td>
+                        <label><input type="text" id="#fourteen" class="label" value="2:00PM"></label>
+                    </td>
+                    <td><button class="button">Save</button></td>
+                </tr>
+                <tr data-time="15">
+                    <th scope="row"></th>
+                    <td>
+                        <label><input type="text" id="#fifteen" class="label" value="3:00PM"></label>
+                    </td>
+                    <td><button class="button">Save</button></td>
+                </tr>
+                <tr data-time="16">
+                    <th scope="row"></th>
+                    <td>
+                        <label><input type="text" id="#sixteen" class="label" value="4:00PM"></label>
+                    </td>
+                    <td><button class="button">Save</button></td>
+                </tr>
+                <tr data-time="17">
+                    <th scope="row"></th>
+                    <td>
+                        <label><input type="text" id="#seventeen" class="label" value="5:00PM"></label>
+                    </td>
+                    <td><button class="button">Save</button></td>
+                </tr>
+                <tr data-time="18">
+                    <th scope="row"></th>
+                    <td>
+                        <label><input type="text" id="#eighteen" class="label" value="6:00PM"></label>
+                    </td>
+                    <td><button class="button">Save</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+
 </body>
+
 </html>

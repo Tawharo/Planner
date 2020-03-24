@@ -1,0 +1,37 @@
+.card {
+    background-color: aquamarine;
+    text-align: center;
+    width:  960px;
+    margin: auto;
+}
+
+button {
+    background-color: #039be5;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    line-height: 8px;
+    max-width: 220px;
+    text-align: center;
+    transition-duration: 0.15s;
+    transition-property: background-color;
+    transition-timing-function: linear;
+    margin-top: 0.6em;
+}
+
+.label {
+    width: 600px;
+    align: center;
+}
+
+.current-time {
+    background-color: coral;
+}
+
+.past-time {
+    background-color: cadetblue;
+}
+
+.future-time {
+    background-color: darkgray;
+}
