@@ -25,13 +25,13 @@ button {
 }
 
 .current-time {
-    background-color: coral;
+    background-color: yellow;
 }
 
 .past-time {
-    background-color: cadetblue;
+    background-color: rgb(21, 226, 32);
 }
 
 .future-time {
-    background-color: darkgray;
+    background-color: rgb(201, 198, 198);
 }
